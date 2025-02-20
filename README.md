@@ -2,7 +2,7 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Trabalho Interdisciplinar - `
+`Trabalho Interdisciplinar - Aplicações Inovadoras`
 
 `5° Semestre`
 
@@ -10,24 +10,30 @@ Será desenvolvida uma plataforma que conecta ONGs que precisam de doações com
 
 ODS Alinhados:
 
-1. ODS 1: Erradicação da pobreza:
+* **ODS 1: Erradicação da pobreza:**
+    * Ao facilitar doações, a plataforma permite que ONGs expandam seus projetos de combate à pobreza, oferecendo oportunidades a pessoas vulneráveis.
+* **ODS 2: Fome zero e agricultura sustentável:**
+    * A plataforma aumenta o financiamento para ONGs que trabalham com segurança alimentar e agricultura sustentável, combatendo a fome.
+* **ODS 3: Saúde e bem-estar:**
+    * Facilita o acesso a recursos para ONGs que oferecem serviços de saúde e apoio a comunidades carentes, promovendo o bem-estar.
+* **ODS 4: Educação de qualidade:**
+    * Impulsiona projetos educacionais de ONGs, como bolsas de estudo e cursos, garantindo educação de qualidade para crianças e jovens.
+* **ODS 10: Redução das desigualdades:**
+    * Conecta doadores a ONGs em áreas vulneráveis, contribuindo para a redução das desigualdades sociais e econômicas.
+* **ODS 17: Parcerias e meios de implementação:**
+    * Atua como um facilitador de parcerias entre doadores e ONGs, fortalecendo a colaboração e a implementação de projetos sociais.
 
-Ao facilitar as doações para ONGs, você estará contribuindo para que elas possam realizar projetos que combatam a pobreza e ofereçam oportunidades para pessoas em situação de vulnerabilidade.
-2. ODS 2: Fome zero e agricultura sustentável:
+## Outros ODS Relevantes
 
-Muitas ONGs trabalham com projetos de segurança alimentar e agricultura sustentável. Sua plataforma pode ajudar a aumentar o financiamento para essas iniciativas.
-3. ODS 3: Saúde e bem-estar:
+Dependendo das ONGs parceiras, a plataforma também pode impactar:
 
-Existem ONGs que atuam na área da saúde, oferecendo serviços e apoio para comunidades carentes. Sua plataforma pode facilitar o acesso a recursos para essas organizações.
-4. ODS 4: Educação de qualidade:
+* **ODS 5: Igualdade de gênero:** Ao apoiar ONGs que promovem a igualdade entre gêneros.
+* **ODS 13: Ação contra a mudança global do clima:** Ao conectar doadores com ONGs focadas em sustentabilidade ambiental.
+* **ODS 15: Vida terrestre:** Ao apoiar organizações que trabalham na preservação de ecossistemas.
 
-Diversas ONGs trabalham com projetos educacionais, oferecendo bolsas de estudo, cursos e atividades para crianças e jovens. Sua plataforma pode ajudar a impulsionar essas iniciativas.
-5. ODS 10: Redução das desigualdades:
+## Contribua
 
-Ao conectar doadores com ONGs que atuam em áreas de vulnerabilidade, você estará contribuindo para reduzir as desigualdades sociais e econômicas.
-6. ODS 17: Parcerias e meios de implementação:
-
-Sua plataforma atua como um facilitador de parcerias entre doadores e ONGs, fortalecendo a colaboração e a implementação de projetos sociais.
+Se você acredita no poder da conexão para transformar o mundo, junte-se a nós!
 
 ## Integrantes
 
