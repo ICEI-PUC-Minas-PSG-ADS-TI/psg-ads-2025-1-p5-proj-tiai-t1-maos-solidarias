@@ -1,23 +1,42 @@
-# TÍTULO DO PROJETO
+# Mãos Solidárias
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar - `
 
-`SEMESTRE`
+`5° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Será desenvolvida uma plataforma que conecta ONGs que precisam de doações com potenciais doadores.
 
 ODS Alinhados:
 
+1. ODS 1: Erradicação da pobreza:
+
+Ao facilitar as doações para ONGs, você estará contribuindo para que elas possam realizar projetos que combatam a pobreza e ofereçam oportunidades para pessoas em situação de vulnerabilidade.
+2. ODS 2: Fome zero e agricultura sustentável:
+
+Muitas ONGs trabalham com projetos de segurança alimentar e agricultura sustentável. Sua plataforma pode ajudar a aumentar o financiamento para essas iniciativas.
+3. ODS 3: Saúde e bem-estar:
+
+Existem ONGs que atuam na área da saúde, oferecendo serviços e apoio para comunidades carentes. Sua plataforma pode facilitar o acesso a recursos para essas organizações.
+4. ODS 4: Educação de qualidade:
+
+Diversas ONGs trabalham com projetos educacionais, oferecendo bolsas de estudo, cursos e atividades para crianças e jovens. Sua plataforma pode ajudar a impulsionar essas iniciativas.
+5. ODS 10: Redução das desigualdades:
+
+Ao conectar doadores com ONGs que atuam em áreas de vulnerabilidade, você estará contribuindo para reduzir as desigualdades sociais e econômicas.
+6. ODS 17: Parcerias e meios de implementação:
+
+Sua plataforma atua como um facilitador de parcerias entre doadores e ONGs, fortalecendo a colaboração e a implementação de projetos sociais.
+
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Amanda Avelino Camilo Barreto Santos
+* Gabriel Arthur de Medeiros Freitas
+* João Vitor Almeida Ansaloni   
+* Vinicius Ferreira Melo 
 
-## Orientador
+## Juliana Padilha
 
 * Nome completo do professor 1
 
