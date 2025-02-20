@@ -6,7 +6,7 @@
 
 `5° Semestre`
 
-Será desenvolvida uma plataforma que conecta ONGs que precisam de doações com potenciais doadores.
+Em um mundo onde a solidariedade é a chave para a transformação social, apresentamos uma plataforma inovadora que conecta ONGs dedicadas a causas nobres com indivíduos e empresas dispostos a fazer a diferença. Nosso objetivo é simplificar e potencializar o processo de doação, garantindo que recursos cheguem a quem mais precisa, de forma transparente e eficiente.
 
 ODS Alinhados:
 
@@ -42,9 +42,9 @@ Se você acredita no poder da conexão para transformar o mundo, junte-se a nós
 * João Vitor Almeida Ansaloni   
 * Vinicius Ferreira Melo 
 
-## Juliana Padilha
+## Professor(a) Orientador(a)
 
-* Nome completo do professor 1
+* Juliana Padilha
 
 ## Instruções de utilização
 
