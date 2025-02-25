@@ -1,18 +1,12 @@
 # Introdução
+A desigualdade social ainda é um grande problema para todo o mundo, e muitas ONGs enfrentam dificuldades para captar recursos e manter projetos ativos .
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto Mãos Solidárias conecta ONGs a doadores, simplificando o processo de doação com eficiência. A iniciativa está aprovada a diversos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, promovendo um impacto social avançado.
+
+O alvo público inclui ONGs que buscam apoio financeiro e pessoas físicas e jurídicas interessadas em contribuir com causas sociais de forma confiável .
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Muitos desafios impedem que as ações cheguem de forma eficiente às ONGs. Problemas como falta de visibilidade das organizações, desconfiança dos doadores, dificuldade em identificar causas específicas limitam bastante o impacto das ações sociais. O Mãos Solidárias surge para resolver essas dores, conectando doadores e ONGs de forma transparente e eficiente.
 
 ## Objetivos
 
