@@ -3,8 +3,6 @@ A desigualdade social ainda é um grande problema para todo o mundo, e muitas ON
 
 O projeto Mãos Solidárias conecta ONGs a doadores, simplificando o processo de doação com eficiência. A iniciativa está aprovada a diversos Objetivos de Desenvolvimento Sustentável (ODS) da ONU, promovendo um impacto social avançado.
 
-O alvo público inclui ONGs que buscam apoio financeiro e pessoas físicas e jurídicas interessadas em contribuir com causas sociais de forma confiável .
-
 ## Problema
 Muitos desafios impedem que as ações cheguem de forma eficiente às ONGs. Problemas como falta de visibilidade das organizações, desconfiança dos doadores, dificuldade em identificar causas específicas limitam bastante o impacto das ações sociais. O Mãos Solidárias surge para resolver essas dores, conectando doadores e ONGs de forma transparente e eficiente.
 
