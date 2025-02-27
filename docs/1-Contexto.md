@@ -8,10 +8,10 @@ Muitos desafios impedem que as ações cheguem de forma eficiente às ONGs. Prob
 
 ## Objetivos
 
-#Geral
+# Geral
 Desenvolver um software eficiente e intuitivo que simplifique e otimize o processo de doação, conectando ONGs a seus doadores de forma direta e transparente.
 
-#Específicos
+# Específicos
 Implementar um sistema de cadastro e perfil para ONGs e doadores:
 
 Desenvolver interfaces de usuário (UI) amigáveis e funcionais para permitir que ONGs se cadastrem, criem perfis detalhados de suas atividades, necessidades e projetos em andamento.
