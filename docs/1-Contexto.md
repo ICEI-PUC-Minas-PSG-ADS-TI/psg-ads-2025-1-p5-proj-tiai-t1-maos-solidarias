@@ -8,18 +8,18 @@ Muitos desafios impedem que as ações cheguem de forma eficiente às ONGs. Prob
 
 ## Objetivos
 
-# Geral
-Desenvolver um software eficiente e intuitivo que simplifique e otimize o processo de doação, conectando ONGs a seus doadores de forma direta e transparente.
+**Geral**
+- Desenvolver um software eficiente e intuitivo que simplifique e otimize o processo de doação, conectando ONGs a seus doadores de forma direta e transparente.
 
-# Específicos
-Implementar um sistema de cadastro e perfil para ONGs e doadores:
+**Específicos**
+- Implementar um sistema de cadastro e perfil para ONGs e doadores:
 
-Desenvolver interfaces de usuário (UI) amigáveis e funcionais para permitir que ONGs se cadastrem, criem perfis detalhados de suas atividades, necessidades e projetos em andamento.
-Criar um sistema de registro para doadores, permitindo que eles se cadastrem, visualizem perfis de ONGs e escolham como desejam contribuir (financeiramente, em espécie, voluntariado, etc.).
-Estabelecer um sistema de transparência e feedback:
-
-Implementar funcionalidades que garantam transparência nas doações, como relatórios automáticos de utilização de fundos e impacto das doações.
-Criar mecanismos para que doadores possam deixar feedback e avaliações sobre as ONGs, ajudando a construir confiança e transparência na plataforma.
+- Desenvolver interfaces de usuário (UI) amigáveis e funcionais para permitir que ONGs se cadastrem, criem perfis detalhados de suas atividades, necessidades e projetos em andamento.
+- Criar um sistema de registro para doadores, permitindo que eles se cadastrem, visualizem perfis de ONGs e escolham como desejam contribuir (financeiramente, em espécie, voluntariado, etc.).
+- Estabelecer um sistema de transparência e feedback:
+- Implementar funcionalidades que garantam transparência nas doações, como relatórios automáticos de utilização de fundos e impacto das doações.
+- Criar mecanismos para que doadores possam deixar feedback e avaliações sobre as ONGs, ajudando a construir confiança e transparência na plataforma.
+  
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
