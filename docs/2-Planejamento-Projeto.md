@@ -55,6 +55,7 @@ Legenda:
 Atualizado em: 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
 |  Vinicius Mello        | Home-Page        |     | |    |     |
 |  Amanda Avelino         | CSS Unificado    |      | |     |                 |
 | Gabriel Arthur         | Página de login  |      |  |      |                 |
@@ -72,6 +73,7 @@ Legenda:
 Atualizado em: 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
 |  Vinicius Mello        |        |     | |    |     |
 |  Amanda Avelino         |    |      | |     |                 |
 | Gabriel Arthur         |   |      |  |      |                 |
@@ -89,6 +91,7 @@ Legenda:
 Atualizado em: 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
 |  Vinicius Mello        |       |     | |    |     |
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
@@ -105,6 +108,7 @@ Legenda:
 Atualizado em: 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
 |  Vinicius Mello        |        |     | |    |     |
 |  Amanda Avelino         |    |      | |     |                 |
 | Gabriel Arthur         |   |      |  |      |                 |
