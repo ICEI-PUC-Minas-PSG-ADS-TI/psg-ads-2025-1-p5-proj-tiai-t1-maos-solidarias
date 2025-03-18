@@ -31,8 +31,6 @@
   
 ## 2.2. Quadro de tarefas
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
-
 ## Sprint 1
 
 Atualizado em: 18/03/2025
