@@ -102,7 +102,7 @@ Legenda:
 - 📝: em execução
 - ⌛: atrasado
 - ❌: não iniciado
-- 
+  
 ## Sprint 5
 
 Atualizado em: 
