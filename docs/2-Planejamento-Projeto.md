@@ -111,7 +111,7 @@ Atualizado em:
 |  Vinicius Mello        |       |     | |    |     |
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
-| João Victor Almeida        | n  |     | |     |       |
+| João Victor Almeida        |  |     | |     |       |
 
 Legenda:
 - ✔️: terminado
