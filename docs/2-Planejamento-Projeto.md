@@ -72,10 +72,10 @@ Atualizado em:
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
-|  Vinicius Mello        | Home-Page        |     | |    |     |
-|  Amanda Avelino         | CSS Unificado    |      | |     |                 |
-| Gabriel Arthur         | Página de login  |      |  |      |                 |
-| João Victor Almeida        | Script de login  |     | |     |       |
+|  Vinicius Mello        |      |     | |    |     |
+|  Amanda Avelino         |     |      | |     |                 |
+| Gabriel Arthur         |  |      |  |      |                 |
+| João Victor Almeida        |   |     | |     |       |
 
 Legenda:
 - ✔️: terminado
