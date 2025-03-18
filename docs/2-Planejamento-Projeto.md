@@ -37,11 +37,10 @@
 
 Atualizado em: 18/03/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| Vinicius Mello| Planejamento Projeto | 18/03/2025   | 21/03/2025 | ✔️    | 18/03/2025      |
-| Amanda Avelino        | Histórias de usuário    |          | 21/03/2025 | ❌    |                 |
-| Gabriel Arthur        | Tarefas Técnicas (Tasks)  | | 21/03/2025 | ❌      |                 |
-| João Victor Almeida        |  Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |           | 21/03/2025 | ❌    |       |
+| Vinicius Mello        | Planejamento Projeto                                                               | 18/03/2025     | 21/03/2025 | ✔️    | 18/03/2025      |
+| Amanda Avelino        | Histórias de usuário                                                               |                | 21/03/2025 | ❌    |                 |
+| Gabriel Arthur        | Tarefas Técnicas (Tasks)                                                           |                | 21/03/2025 | ❌    |                 |
+| João Victor Almeida   |  Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |                | 21/03/2025 | ❌    |                 |
 
 Legenda:
 - ✔️: terminado
