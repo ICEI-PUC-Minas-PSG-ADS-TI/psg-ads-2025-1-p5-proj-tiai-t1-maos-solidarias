@@ -34,12 +34,30 @@
 ## Sprint 1
 
 Atualizado em: 18/03/2025
+
+| Responsável           | Tarefa/Requisito                                                                   | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
+| Vinicius Mello        | Contexo: Introdução e Problema                                                         | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
+| Amanda Avelino        | Contexo: Objetivos | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
+| Gabriel Arthur        | Contexo: Justificativa                                                          | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025      |
+| João Victor Almeida   | Contexo: Público-Alvo  | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
+
+
+Legenda:
+- ✔️: terminado
+- 📝: em execução
+- ⌛: atrasado
+- ❌: não iniciado
+
+## Sprint 2
+
+Atualizado em: 18/03/2025
 | Responsável           | Tarefa/Requisito                                                                   | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
 | Vinicius Mello        | Planejamento Projeto                                                               | 18/03/2025     | 21/03/2025 | ✔️    | 18/03/2025      |
-| Amanda Avelino        | Histórias de usuário                                                               |                | 21/03/2025 | 📝    |                 |
-| Gabriel Arthur        | Tarefas Técnicas (Tasks)                                                           |                | 21/03/2025 | 📝    |                 |
-| João Victor Almeida   |  Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |                | 21/03/2025 | 📝    |                 |
+| Amanda Avelino        | Especificação: Histórias de usuário                                                               |                | 21/03/2025 | 📝    |                 |
+| Gabriel Arthur        | Especificação: Tarefas Técnicas (Tasks)                                                           |                | 21/03/2025 | 📝    |                 |
+| João Victor Almeida   | Especificação: Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |                | 21/03/2025 | 📝    |                 |
 
 Legenda:
 - ✔️: terminado
@@ -48,7 +66,7 @@ Legenda:
 - ❌: não iniciado
 
   
-## Sprint 2
+## Sprint 3
 
 Atualizado em: 
 
@@ -66,7 +84,7 @@ Legenda:
 - ❌: não iniciado
 
 
-## Sprint 3
+## Sprint 4
 
 Atualizado em: 
 
@@ -84,7 +102,7 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
-## Sprint 4
+## Sprint 5
 
 Atualizado em: 
 
@@ -94,23 +112,6 @@ Atualizado em:
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
 | João Victor Almeida        | n  |     | |     |       |
-
-Legenda:
-- ✔️: terminado
-- 📝: em execução
-- ⌛: atrasado
-- ❌: não iniciado
-  
-## Sprint 5
-
-Atualizado em: 
-
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----                 |    :----                                                                           |      :----:    | :----:     | :----: | :----:          |
-|  Vinicius Mello        |        |     | |    |     |
-|  Amanda Avelino         |    |      | |     |                 |
-| Gabriel Arthur         |   |      |  |      |                 |
-| João Victor Almeida        |  |     | |     |       |
 
 Legenda:
 - ✔️: terminado
