@@ -3,9 +3,33 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Planejamento-Projeto.md"> Planejamento do Projeto do Software (Cronograma) </a></span>
 
-> Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição das histórias de usuários, dos requisitos funcionais e não funcionais além das restrições do projeto.
+Para o desenvolvimento deste projeto, realizamos um levantamento detalhado dos requisitos utilizando uma variedade de técnicas e ferramentas, garantindo uma compreensão abrangente das necessidades dos usuários e das expectativas dos stakeholders. As principais ferramentas e métodos utilizados incluem:
 
-> Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+## Ferramentas e Métodos Utilizados
+
+### Formulários
+Foram elaborados e distribuídos formulários para coletar informações quantitativas e qualitativas de potenciais usuários do sistema, incluindo ONGs e doadores. Esses formulários nos permitiram identificar padrões de comportamento, necessidades específicas e expectativas em relação à plataforma.
+
+### Entrevistas
+Realizamos entrevistas individuais e em grupo com representantes de ONGs, doadores e outros stakeholders relevantes. Essas entrevistas proporcionaram insights valiosos sobre as dores, desafios e desejos dos usuários, além de permitir uma compreensão mais profunda dos processos atuais de doação e captação de recursos.
+
+### Observações
+A observação direta do comportamento de ONGs e doadores em situações reais de doação e captação de recursos nos ajudou a identificar pontos de melhoria e oportunidades de inovação que não foram mencionados nas entrevistas ou formulários.
+
+### Análise de Documentos
+Analisamos documentos internos de ONGs, relatórios de doações, políticas de captação de recursos e outros materiais relevantes. Essa análise nos permitiu entender os processos existentes, as regulamentações envolvidas e as lacunas que o sistema pode preencher.
+
+### Prototipagem utilizando Figma
+Desenvolvemos protótipos de alta e baixa fidelidade utilizando a ferramenta Figma. Esses protótipos foram essenciais para visualizar e testar a usabilidade da interface, permitindo ajustes iterativos com base no feedback dos usuários.
+
+### Casos de Uso
+Elaboramos casos de uso detalhados para mapear as interações entre os diferentes tipos de usuários (ONGs, doadores, administradores) e o sistema. Isso nos ajudou a garantir que todas as funcionalidades necessárias fossem consideradas e que o sistema atendesse às expectativas de todos os envolvidos.
+
+### Reuniões com Stakeholders
+Realizamos reuniões regulares com os stakeholders do projeto, incluindo representantes de ONGs, doadores, equipe de desenvolvimento e outros interessados. Essas reuniões foram cruciais para alinhar expectativas, validar requisitos e garantir que o desenvolvimento do sistema estivesse alinhado com os objetivos do projeto.
+
+## Priorização dos Requisitos
+Com base nesse levantamento, priorizaremos os requisitos por ordem de dificuldade de implementação, considerando fatores como complexidade técnica, impacto no usuário, tempo de desenvolvimento e dependências entre funcionalidades.
 
 ## 3.1 Classificação dos Requisitos Funcionais x Requisitos não Funcionais 
 
