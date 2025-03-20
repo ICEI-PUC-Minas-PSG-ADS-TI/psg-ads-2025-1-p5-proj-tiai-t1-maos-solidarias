@@ -90,6 +90,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Tarefas Técnicas (Tasks)
 
+Legenda:
+- ✔️: terminado
+- 📝: em execução
+- ⌛: atrasado
+- ❌: não iniciado
+
 ### Tarefas iniciais
 
 ## Configurar ambiente de desenvolvimento
@@ -108,8 +114,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 - ❌ Desenvolver lógica para após 3 tentativas incorretas impossibilitar o usuário de continuar tentando.
 
 ## Implementar autenticação JWT
-❌ Gerar token JWT para usuários autenticados
-❌ Configurar middleware para verificar tokens em requisições protegidas
+- ❌ Gerar token JWT para usuários autenticados
+- ❌ Configurar middleware para verificar tokens em requisições protegidas
 
 ## Criar sistema de recuperação de senha
 - ❌ Criar tela para solicitar recuperação de senha
