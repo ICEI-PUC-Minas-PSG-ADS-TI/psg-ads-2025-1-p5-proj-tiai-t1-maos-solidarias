@@ -90,17 +90,41 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Tarefas Técnicas (Tasks)
 
-Cada história do usuário é dividida em tarefas específicas para implementação, confome o exemplo abaixo:
+### Tarefas iniciais
 
-## História de Usuário: 
-                     Como cliente, eu quero fazer login no sistema para acessar meu perfil.
+✅ Configurar ambiente de desenvolvimento
+❌ Instalar dependências do backend (frameworks, ORM, banco de dados, etc.)
+❌ Instalar dependências do frontend (bibliotecas UI, roteamento, estado global, etc.)
 
-## As tarefas técnicas referente a história podem ser:
-                   Criar a interface de login: Implementar a página com os campos de nome de usuário e senha.
-                   Criar validação de entradas: Implementar a verificação de que o usuário inseriu o nome e a senha corretos.
-                   Tratar erros de login: Implementar a lógica que exibe mensagens de erro caso nome e senha incorretos.
+✅ Configurar banco de dados
+❌ Criar modelo de dados inicial para ONGs, doadores e doações
+❌ Configurar conexão com banco de dados
 
+✅ Autenticação e Login
+❌ Criar a interface de login(modal com dois campos - email e senha - e um botão)
+❌ Criar validações para verificar as entradas de dados(email e senha informados?)
+❌ Exibir mensagens de campo não informação quando as verificações falharem.
+❌ Desenvolver endpoint que vai verificar no nosso banco se o login e senha correspondem
+❌ Desenvolver lógica para após 3 tentativas incorretas impossibilitar o usuário de continuar tentando.
 
+✅ Implementar autenticação JWT
+❌ Gerar token JWT para usuários autenticados
+❌ Configurar middleware para verificar tokens em requisições protegidas
+
+✅ Criar sistema de recuperação de senha
+❌ Criar tela para solicitar recuperação de senha
+❌ Implementar envio de e-mail com link para redefinir senha
+❌ Criar tela de redefinição de senha
+
+🔹 Cadastro e Gerenciamento de ONGs
+✅ Criar a interface de cadastro de ONGs
+
+❌ Criar formulário com campos: nome, CNPJ, descrição, área de atuação, site, telefone, endereço
+
+✅ Criar a página de perfil da ONG
+
+❌ Exibir informações cadastradas da ONG
+❌ Adicionar botão para editar perfil
 
 
 
