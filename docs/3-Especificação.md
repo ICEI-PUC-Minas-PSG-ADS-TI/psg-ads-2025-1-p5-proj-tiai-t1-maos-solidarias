@@ -72,7 +72,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--------------------|------------------------------------|----------------------------------------|
 |        ONG         |   Me cadastrar na plataforma       | Criar um perfil com informações sobre a minha organização e projetos em andamento|
 |        ONG         | Editar as informações do meu perfil| Manter os doadores informados sobre as atualizações|
-|       Doador       |   Me cadastrar na plataforma       | visualizar e escolher quais ONGs apoiar|
+|       Doador       |   Me cadastrar na plataforma       | Visualizar e escolher quais ONGs apoiar|
 |       Doador       |Visualizar um perfil detalhado de cada ONG| Entender melhor as causas e as ações de cada organização|
 |       Doador       |   Escolher como desejo contribuir  |  Fazer uma doação|
 |    Administrador  |Validar o cadastro das ONGs antes que elas se tornem visíveis para os doadores| Garantir que todas as organizações na plataforma sejam legítimas|
