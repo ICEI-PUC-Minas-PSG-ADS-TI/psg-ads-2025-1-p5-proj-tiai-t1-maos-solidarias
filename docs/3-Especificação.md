@@ -54,7 +54,17 @@ Lembre-se de classificá-los de acordo com a prioridade: ALTA, MÉDIA ou BAIXA.
 |ID    | Descrição do Requisito                  | Prioridade |
 |------|-----------------------------------------|------------|
 |RF-001| Permitir que o usuário cadastre tarefas |    ALTA    | 
-|RF-002| Emitir um relatório de tarefas no mês   |    MÉDIA   |
+|RF-002| Proteger os dados dos usuários com criptografia e práticas de segurança recomendadas.|    ALTA   |
+|RF-003| A interface deve ser intuitiva e fácil de usar para ONGs, doadores e administradores.|    ALTA   |
+|RF-004| O sistema deve ser capaz de lidar com um grande número de usuários simultaneamente.|    ALTA   |
+|RF-005| Garantir que o sistema esteja disponível 24/7, com tempo de inatividade mínimo. |    ALTA   |
+|RF-006| Implementar backups regulares para evitar perda de dados.  |    MÉDIA   |
+|RF-007| A plataforma deve ser acessível, seguindo as diretrizes da WCAG. |    MÉDIA   |
+|RF-008| Integrar gateways de pagamento confiáveis (ex.: PayPal, Stripe, PagSeguro). |    ALTA   |
+|RF-009| Implementar um processo robusto de validação de ONGs para garantir legitimidade.|    MÉDIA   |
+|RF-010| Oferecer um sistema de suporte ao usuário para ajudar em caso de dúvidas ou problemas. |    BAIXA   |
+
+
 
 
 ### Requisitos não Funcionais
