@@ -33,59 +33,49 @@ Com base nesse levantamento, priorizaremos os requisitos por ordem de dificuldad
 
 ## 3.1 Classificação dos Requisitos Funcionais x Requisitos não Funcionais 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-> - **[Requisitos Funcionais (RF)]**(https://pt.wikipedia.org/wiki/Requisito_funcional): correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-> - **[Requisitos Não Funcionais (RNF)]**(https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-
-### a) Modifique os quadros abaixo, inserindo os Requisitos Funcionais e Não Funcionais do seu projeto. 
-
-Lembre-se de classificá-los de acordo com a prioridade: ALTA, MÉDIA ou BAIXA.
-
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito                  | Prioridade |
 |------|-----------------------------------------|------------|
-|RF-001| Permitir que o usuário cadastre tarefas |    ALTA    | 
-|RF-002| Proteger os dados dos usuários com criptografia e práticas de segurança recomendadas.|    ALTA   |
-|RF-003| A interface deve ser intuitiva e fácil de usar para ONGs, doadores e administradores.|    ALTA   |
-|RF-004| O sistema deve ser capaz de lidar com um grande número de usuários simultaneamente.|    ALTA   |
-|RF-005| Garantir que o sistema esteja disponível 24/7, com tempo de inatividade mínimo. |    ALTA   |
-|RF-006| Implementar backups regulares para evitar perda de dados.  |    MÉDIA   |
-|RF-007| A plataforma deve ser acessível, seguindo as diretrizes da WCAG. |    MÉDIA   |
-|RF-008| Integrar gateways de pagamento confiáveis (ex.: PayPal, Stripe, PagSeguro). |    ALTA   |
-|RF-009| Implementar um processo robusto de validação de ONGs para garantir legitimidade.|    MÉDIA   |
-|RF-010| Oferecer um sistema de suporte ao usuário para ajudar em caso de dúvidas ou problemas. |    BAIXA   |
-
-
+|RF-001| Permitir que ONGs se cadastrem na plataforma e criem um perfil com informações básicas.	 |    ALTA    | 
+|RF-002| Permitir que ONGs editem as informações do seu perfil.|    ALTA   |
+|RF-003| Permitir que doadores se cadastrem na plataforma.|    ALTA   |
+|RF-004| Exibir um perfil detalhado de cada ONG, com informações sobre causas e projetos.|    ALTA   |
+|RF-005| Permitir que doadores escolham como desejam contribuir (valores, frequência, etc.). |    ALTA   |
+|RF-006| Oferecer uma funcionalidade de doação online segura.  |    MÉDIA   |
+|RF-007| Permitir que administradores validem o cadastro de ONGs antes de torná-las visíveis. |    MÉDIA   |
+|RF-008| Permitir que administradores monitorem as avaliações de doadores sobre as ONGs. |    ALTA   |
+|RF-009| Permitir que doadores deixem feedback e avaliações sobre as ONGs que apoiaram.|    MÉDIA   |
+|RF-010| Gerar relatórios automáticos sobre o uso dos fundos doados, disponíveis para doadores. |    BAIXA   |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito                                            |Prioridade |
 |-------|-------------------------------------------------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel |    MÉDIA  | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s             |    BAIXA  | 
+|RNF-001| Garantir que todas as transações financeiras sejam seguras e estejam em conformidade com normas de proteção de dados (ex.: LGPD, GDPR). |    ALTA  | 
+|RNF-002| Proteger os dados dos usuários com criptografia e práticas de segurança recomendadas.           |    ALTA  |
+|RNF-003| A interface deve ser intuitiva e fácil de usar para ONGs, doadores e administradores. |    ALTA  | 
+|RNF-004| O sistema deve ser capaz de lidar com um grande número de usuários simultaneamente.            |    ALTA  |
+|RNF-005| Garantir que o sistema esteja disponível 24/7, com tempo de inatividade mínimo. |    ALTA  | 
+|RNF-006| Implementar backups regulares para evitar perda de dados.             |    MEDIA  |
+|RNF-007| A plataforma deve ser acessível, seguindo as diretrizes da WCAG. |    MEDIA  | 
+|RNF-008| Integrar gateways de pagamento confiáveis (ex.: PayPal, Stripe, PagSeguro).	  |    ALTA  |
+|RNF-009| Implementar um processo robusto de validação de ONGs para garantir legitimidade. |    MÉDIA  | 
+|RNF-010| Oferecer um sistema de suporte ao usuário para ajudar em caso de dúvidas ou problemas.         |    BAIXA  |
 
-
-
-### b) Modifique o Quadro abaixo e insira as Restrições para o seu projeto.
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Restrições
 
 |ID| Restrição                                               |
 |--|---------------------------------------------------------|
 |01| O software deve ser compatível com Windows e Linux.     |
-|02| O sistema deve ser desenvolvido utilizando Java e MySQL.|
+|02| O sistema deve ser desenvolvido utilizando HTML, CSS E JS.|
+|03| O sistema deve utilizar um banco de dados relacional|
+|04| O sistema deve Seguir normas legais para garantir a privacidade e segurança dos usuários.|
+|05| O sistema deve Garantir que a plataforma seja acessível em diferentes dispositivos.|
+|06| O código-fonte deve ser versionado utilizando Git e hospedado em uma plataforma como GitHub ou GitLab.|
+|07| O sistema deve ser documentado, incluindo manuais de uso.|
 
 **Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.**
 
