@@ -6,18 +6,18 @@
 
 ### Sprint 1
 - _Scrum master_: Gabriel Arthur
-- Protótipos: João Victor Almeida
+- Protótipos: João Vitor Almeida
 - Testes: Amanda Avelino
 - Documentação: Vinicius Mello
 
 ### Sprint 2
 - _Scrum master_: Vinicius Mello
-- Desenvolvedor _front-end_: João Victor Almeida
+- Desenvolvedor _front-end_: João Vitor Almeida
 - Desenvolvedor _back-end_: Gabriel Arthur
 - Testes: Amanda Avelino
 
 ### Sprint 3
-- _Scrum master_: João Victor Almeida
+- _Scrum master_: João Vitor Almeida
 - Desenvolvedor _front-end_: Vinicius Mello
 - Desenvolvedor _back-end_: Amanda Avelino
 - Testes: Gabriel Arthur
@@ -26,7 +26,7 @@
 - _Scrum master_: Amanda Avelino
 - Desenvolvedor _front-end_: Gabrel Arthur
 - Desenvolvedor _back-end_: Vinicius Mello
-- Testes: João Victor Almeida
+- Testes: João Vitor Almeida
 
   
 ## 2.2. Quadro de tarefas
@@ -40,7 +40,7 @@ Atualizado em: 18/03/2025
 | Vinicius Mello        | Contexo: Introdução e Problema                                                         | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
 | Amanda Avelino        | Contexo: Objetivos | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
 | Gabriel Arthur        | Contexo: Justificativa                                                          | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025      |
-| João Victor Almeida   | Contexo: Público-Alvo  | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
+| João Vitor Almeida   | Contexo: Público-Alvo  | 20/02/2025     | 27/02/2025 | ✔️    | 21/02/2025       |
 
 
 Legenda:
@@ -57,7 +57,7 @@ Atualizado em: 18/03/2025
 | Vinicius Mello        | Planejamento Projeto                                                               | 18/03/2025     | 21/03/2025 | ✔️    | 18/03/2025      |
 | Amanda Avelino        | Especificação: Histórias de usuário                                                               |                | 21/03/2025 | 📝     |           |
 | Gabriel Arthur        | Especificação: Tarefas Técnicas (Tasks)                                                           |                | 21/03/2025 | ✔️    | 19/03/2025      |
-| João Victor Almeida   | Especificação: Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |                | 21/03/2025 | ✔️    | 20/03/2025 |
+| João Vitor Almeida   | Especificação: Classificação dos Requisitos Funcionais x Requisitos não Funcionais e Restrições  |                | 21/03/2025 | ✔️    | 20/03/2025 |
 
 Legenda:
 - ✔️: terminado
@@ -75,7 +75,7 @@ Atualizado em:
 |  Vinicius Mello        |      |     | |    |     |
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
-| João Victor Almeida        |   |     | |     |       |
+| João Vitor Almeida        |   |     | |     |       |
 
 Legenda:
 - ✔️: terminado
@@ -93,7 +93,7 @@ Atualizado em:
 |  Vinicius Mello        |        |     | |    |     |
 |  Amanda Avelino         |    |      | |     |                 |
 | Gabriel Arthur         |   |      |  |      |                 |
-| João Victor Almeida        |  |     | |     |       |
+| João Vitor Almeida        |  |     | |     |       |
 
 
 Legenda:
@@ -111,7 +111,7 @@ Atualizado em:
 |  Vinicius Mello        |       |     | |    |     |
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
-| João Victor Almeida        |  |     | |     |       |
+| João Vitor Almeida        |  |     | |     |       |
 
 Legenda:
 - ✔️: terminado
