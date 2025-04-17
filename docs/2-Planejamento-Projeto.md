@@ -75,7 +75,7 @@ Atualizado em:
 |  Vinicius Mello        |      |     | |    |     |
 |  Amanda Avelino         |     |      | |     |                 |
 | Gabriel Arthur         |  |      |  |      |                 |
-| João Vitor Almeida        |   |     | |     |       |
+| João Vitor Almeida        | Arquitetura de solução / Prototipo  |  11/04   | 22/04 | 📝  |       |
 
 Legenda:
 - ✔️: terminado
