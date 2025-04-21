@@ -70,8 +70,8 @@ Com base nesse levantamento, priorizaremos os requisitos por ordem de dificuldad
 |ID| Restrição                                               |
 |--|---------------------------------------------------------|
 |01| O software deve ser compatível com Windows e Linux.     |
-|02| O sistema deve ser desenvolvido utilizando HTML, CSS E JS.|
-|03| O sistema deve utilizar um banco de dados relacional|
+|02| O sistema deve ser desenvolvido utilizando HTML, CSS, React, JS e C#|
+|03| O sistema deve utilizar um banco de dados relacional (SQL)|
 |04| O sistema deve Seguir normas legais para garantir a privacidade e segurança dos usuários.|
 |05| O sistema deve Garantir que a plataforma seja acessível em diferentes dispositivos.|
 |06| O código-fonte deve ser versionado utilizando Git e hospedado em uma plataforma como GitHub ou GitLab.|
