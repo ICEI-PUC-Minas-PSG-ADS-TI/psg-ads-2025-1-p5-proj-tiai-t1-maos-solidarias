@@ -36,12 +36,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+![ChatGPT Image Apr 21, 2025, 01_59_02 PM](https://github.com/user-attachments/assets/d3de306d-4acf-4aaa-a950-24113a965c04)
 
 ## Modelo ER
 
@@ -136,15 +131,16 @@ Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
 
 ### 4.4. Tecnologias
 
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Para desenvolver o site Mãos Solidárias, será utilizada uma combinação de tecnologias modernas que garantem segurança e uma experiência inutitiva e clara para o usuário final. A seguir, estão listadas todas as tecnologias envolvidas na implementação da solução:
 
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
 | SGBD           | MySQL           |
-| Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
+| Front end      | React.js (JavaScript, HTML5, CSS3)    |
+| Back end       | C# com .NET + JavaScript |
+|IDE| Visual Studio Code|
+| Controle de Versão         | Github Classroom    |
+| Metodologia | Scrum |
+|Hospedagem | Azure |
 
