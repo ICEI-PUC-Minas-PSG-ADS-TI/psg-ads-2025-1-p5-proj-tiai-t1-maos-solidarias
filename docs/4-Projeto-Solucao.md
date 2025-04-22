@@ -56,18 +56,60 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 #### 4.3.2 Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
-
-![Exemplo de um modelo relacional](images/modeloRelacional.png "Exemplo de Modelo Relacional.")
----
+![image](https://github.com/user-attachments/assets/8a84193a-bc0f-471d-a838-6d0e9cc96bc6)
 
 
 #### 4.3.3 Modelo Físico
 
+-- Tabela ONG
+CREATE TABLE ONG (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL,
+    Descricao TEXT,
+    Endereco VARCHAR(255),
+    Contato VARCHAR(50)
+);
+
+-- Tabela Doador
+CREATE TABLE Doador (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    Endereco VARCHAR(255),
+    TipoDoacaoPreferencial VARCHAR(50)
+);
+
+-- Tabela Projeto
+CREATE TABLE Projeto (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    NomeProjeto VARCHAR(100) NOT NULL,
+    Descricao TEXT,
+    ONG_ID INT,
+    FOREIGN KEY (ONG_ID) REFERENCES ONG(ID)
+);
+
+-- Tabela Doacao
+CREATE TABLE Doacao (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    DataDoacao DATE NOT NULL,
+    Valor DECIMAL(10, 2) NOT NULL,
+    Doador_ID INT,
+    Projeto_ID INT,
+    FOREIGN KEY (Doador_ID) REFERENCES Doador(ID),
+    FOREIGN KEY (Projeto_ID) REFERENCES Projeto(ID)
+);
+
+-- Tabela Feedback
+CREATE TABLE Feedback (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Comentario TEXT,
+    Avaliacao INT CHECK (Avaliacao BETWEEN 1 AND 5),
+    DataFeedback DATE NOT NULL,
+    Doador_ID INT,
+    ONG_ID INT,
+    FOREIGN KEY (Doador_ID) REFERENCES Doador(ID),
+    FOREIGN KEY (ONG_ID) REFERENCES ONG(ID)
+);
 
 
 
