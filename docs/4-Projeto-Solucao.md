@@ -44,9 +44,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### 4.3. Modelo de dados
 
-
-![image](https://github.com/user-attachments/assets/709f6bb0-c3f0-4935-911c-7b97aa819389)
-
+![image](https://github.com/user-attachments/assets/982c9988-f6c0-4eb5-b707-3aed82783dbc)
 
 #### 4.3.1 Modelo ER
 
