@@ -5,14 +5,10 @@
 ## 4.1. Arquitetura da solução
 
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Nossa solução vai ser uma página Web desenvolvida utilizando HTML, JS e React. Contamos com o C# para o desenvolvimeto do back-end que vai ligar o nosso banco de dados SQL com nosso sistema. A hospedagem será feita no próprio Github
+ 
+![image](https://github.com/user-attachments/assets/606a5dfb-132e-4f1e-bd91-e84100e24cc5)
 
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
- 
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
  
 
 ### 4.2. Protótipos de telas
