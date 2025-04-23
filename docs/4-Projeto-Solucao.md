@@ -54,7 +54,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 #### 4.3.2 Esquema Relacional
 
-![image](![image](https://github.com/user-attachments/assets/340bfbf2-2ed4-4a3c-ad7a-d4a64763587b)
+![image]((https://github.com/user-attachments/assets/340bfbf2-2ed4-4a3c-ad7a-d4a64763587b)
 )
 
 
