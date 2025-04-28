@@ -20,8 +20,11 @@ Home page do site:
 ![image](https://github.com/user-attachments/assets/ef3a861e-2587-4ded-8853-63fb40cf48b5)
 ![image](https://github.com/user-attachments/assets/8591c93b-80eb-4bd7-b342-ef31c607c19e)
 
-
 Tela de cadastro de ONG:
+
+![image](https://github.com/user-attachments/assets/b071b3a5-0ea2-4157-9608-a7282b7447c9)
+![image](https://github.com/user-attachments/assets/fdd8b9c2-fad5-4f3e-88fc-3106be2595ac)
+![image](https://github.com/user-attachments/assets/00973dbf-81ca-4ebd-a9b4-2e373a5418c5)
 
 Página principal de ONG logada:
 
