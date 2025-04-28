@@ -39,6 +39,9 @@ Tela de Perfil da ONG:
 
 Solicitação de doação:
 
+![image](https://github.com/user-attachments/assets/3e8ef73e-6a42-4445-b85f-4e0e0025fe1b)
+![image](https://github.com/user-attachments/assets/2c483fe8-ce50-4ebc-93cc-96dc1a5f9c86)
+
 ## Diagrama de Classes
 
 ![ChatGPT Image Apr 21, 2025, 01_59_02 PM](https://github.com/user-attachments/assets/d3de306d-4acf-4aaa-a950-24113a965c04)
