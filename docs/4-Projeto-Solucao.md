@@ -13,36 +13,21 @@ Nossa solução vai ser uma página Web desenvolvida utilizando HTML, JS e React
 
 ### 4.2. Protótipos de telas
 
+Home page do site:
 
-Home de usuários Doadores antes do cadastro:
-
-![image](https://github.com/user-attachments/assets/16bf893c-a9c3-48f3-b813-f55f92c296c7)
-
-Tela de cadastro de usuários doadores:
-
-![image](https://github.com/user-attachments/assets/b6774d42-65fd-4062-9553-730885839554)
+![image](https://github.com/user-attachments/assets/9b5058cc-a0c2-426a-ac85-3e4de02e1c6f)
+![image](https://github.com/user-attachments/assets/58188d91-f59e-48ca-bf39-31fa9ba3d988)
+![image](https://github.com/user-attachments/assets/ef3a861e-2587-4ded-8853-63fb40cf48b5)
+![image](https://github.com/user-attachments/assets/8591c93b-80eb-4bd7-b342-ef31c607c19e)
 
 
-Home de Ongs antes do cadastro:
+Tela de cadastro de ONG:
 
-![image](https://github.com/user-attachments/assets/1d834898-a859-4dee-af93-9795d5f7ab44)
+Página principal de ONG logada:
 
-Tela de cadastro das Ongs:
+Tela de Perfil da ONG:
 
-![image](https://github.com/user-attachments/assets/de7fd5e4-17ad-495c-bee9-fe92c6efe91c)
-
-Tela principal de usuário doador:
-
-![image](https://github.com/user-attachments/assets/20ca144a-4b91-4ee2-9539-70a2346860d2)
-
-Tela para realizar doações:
-
-![image](https://github.com/user-attachments/assets/85abe720-b8ef-416a-a097-5958f4bc90e9)
-
-
-Tela de perfil da Ong:
-
-Tela de perfil Usuário:
+Solicitação de doação:
 
 ## Diagrama de Classes
 
