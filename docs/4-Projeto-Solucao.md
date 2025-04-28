@@ -28,7 +28,14 @@ Tela de cadastro de ONG:
 
 Página principal de ONG logada:
 
+![image](https://github.com/user-attachments/assets/4f1446cd-130a-439c-ba38-b416cea6a30f)
+![image](https://github.com/user-attachments/assets/3414a357-b0fe-4234-b4dd-6ce6cb197a62)
+![image](https://github.com/user-attachments/assets/2bb35b80-4d74-4d18-9fd6-1cdd97dae0d5)
+
 Tela de Perfil da ONG:
+
+![image](https://github.com/user-attachments/assets/e8a4dc3c-d870-4951-b865-d554b8cfd939)
+![image](https://github.com/user-attachments/assets/bf18bc33-97d5-400a-b268-eb6d3088cd19)
 
 Solicitação de doação:
 
