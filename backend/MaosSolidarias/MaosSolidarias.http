@@ -1,0 +1,6 @@
+@MaosSolidarias_HostAddress = http://localhost:5023
+
+GET {{MaosSolidarias_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
