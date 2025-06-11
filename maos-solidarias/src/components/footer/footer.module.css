@@ -1,7 +1,66 @@
+/* footer.module.css */
+
 .container {
-    height: 50px;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
     display: flex;
     align-items: center;
+    gap: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .bottomSection {
+    display: flex;
     justify-content: space-between;
-    background-color:#1D2128FF;
-}
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .languageSelector {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .copy {
+    font-size: 14px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .socialIcons svg:hover {
+    color: #ff5e5e;
+  }
+  

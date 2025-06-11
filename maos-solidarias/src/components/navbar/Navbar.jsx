@@ -1,4 +1,4 @@
-'use client' // necessário para usar hooks no componente
+'use client'
 
 import Link from 'next/link'
 import React from 'react'
@@ -7,16 +7,21 @@ import styles from './navbar.module.css'
 import PersonIcon from '@mui/icons-material/Person'
 import LoginIcon from '@mui/icons-material/Login';
 import CheckIcon from '@mui/icons-material/Check';
-import HomeIcon from '@mui/icons-material/Home';
+import Image from 'next/image';
+
+
 
 const Navbar = () => {
   const pathname = usePathname()
 
   return (
     <div className={styles.container}>
+      <div className={styles.logo}>
+      <Image src={"/logo.png"} width={30} height={30} alt='Mãos Solidárias'></Image>
       <Link href="/" className={styles.logo}>
         Mãos Solidárias
       </Link>
+      </div>
       <div className={styles.leftLinks}>
         <Link href="/" className={`${styles.link} ${pathname === '/' ? styles.active : ''}`}>
           Home
