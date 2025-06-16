@@ -1,6 +1,9 @@
 import StepsSection from "@/components/stepsSection/StepsSection";
 import styles from "./page.module.css";
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import BenefitSection from "@/components/benefitSection/BenefitsSections";
+import { ongsSectionData, benefitsSectionData, donorsSectionData, donationsData } from "./types";
+import DonationFeed from "@/components/donationFeed/DonationFeed";
 
 export default function Home() {
   return (
@@ -12,7 +15,10 @@ export default function Home() {
           <button className={styles.button}><MailOutlineIcon />Registrar como ONG</button>
         </div>
       </div>
-      <StepsSection />
+      <StepsSection steps={ongsSectionData} title={"Como funciona para ONGs"}/>
+      <BenefitSection steps={benefitsSectionData} />
+      <StepsSection steps={donorsSectionData} title={"Como funciona para Doadores"} />
+      <DonationFeed donations={donationsData} />
     </div>
   );
 }

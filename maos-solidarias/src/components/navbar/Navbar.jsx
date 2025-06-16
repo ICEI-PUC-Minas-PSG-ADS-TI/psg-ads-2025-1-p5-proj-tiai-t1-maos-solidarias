@@ -6,8 +6,8 @@ import { usePathname } from 'next/navigation'
 import styles from './navbar.module.css'
 import PersonIcon from '@mui/icons-material/Person'
 import LoginIcon from '@mui/icons-material/Login';
-import CheckIcon from '@mui/icons-material/Check';
 import Image from 'next/image';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 
 
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <div className={styles.links}>
         <Link href="/doacao" className={`${styles.button} ${styles.outline}`}>
-          <CheckIcon />
+          <VolunteerActivismIcon />
           Doação segura
         </Link>
         <Link href="/register" className={`${styles.button} ${styles.filled}`}>

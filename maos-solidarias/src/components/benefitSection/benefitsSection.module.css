@@ -1,0 +1,47 @@
+.stepsSection {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #171A1FFF;
+}
+
+.stepsSection h2 {
+  margin-bottom: 40px;
+}
+
+.stepsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 180px;
+}
+
+.step {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.titleWithIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px
+}
+
+.step h3 {
+  margin: 0; 
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.step p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}
+
+.icon {
+  font-size: 20px; 
+  display: flex;
+  align-items: center;
+}

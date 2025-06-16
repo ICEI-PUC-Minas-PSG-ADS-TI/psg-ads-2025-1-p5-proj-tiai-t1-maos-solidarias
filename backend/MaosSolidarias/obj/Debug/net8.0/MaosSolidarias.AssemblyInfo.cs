@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaosSolidarias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59b9ae9756e87448ed16d3af28e0dac70c4425c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc1cff080bc71bdf21bb2dc79d60f9ff5629ea60")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaosSolidarias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaosSolidarias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
