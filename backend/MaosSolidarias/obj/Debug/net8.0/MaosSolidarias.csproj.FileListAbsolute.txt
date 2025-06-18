@@ -43,3 +43,15 @@ C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\back
 C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.sourcelink.json
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.csproj.AssemblyReference.cache
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.AssemblyInfoInputs.cache
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.AssemblyInfo.cs
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.csproj.CoreCompileInputs.cache
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cs
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cache
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.sourcelink.json
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.dll
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\refint\MaosSolidarias.dll
+C:\VisualCode\maosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.pdb

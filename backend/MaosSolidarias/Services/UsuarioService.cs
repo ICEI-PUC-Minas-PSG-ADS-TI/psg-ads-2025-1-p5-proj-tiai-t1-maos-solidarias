@@ -18,6 +18,11 @@ namespace MaosSolidarias.Services
             _usuarioRepository.Criar(usuario);
         }
 
+        public void RemoverUsuario(int id)
+        {
+            _usuarioRepository.Deletar(id);
+        }
+
         public List<Usuario> ObterUsuario()
         {
             return _usuarioRepository.ListarTodos();
