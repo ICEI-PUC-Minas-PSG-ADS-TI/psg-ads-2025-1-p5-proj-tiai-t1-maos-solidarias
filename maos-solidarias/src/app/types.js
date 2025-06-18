@@ -52,10 +52,6 @@ export const donorsSectionData = [
   }
 ];
 
-export const donationsSectionData = [
-
-]
-
 export const donationsData = [
     {
         image: '/donate1.png',
