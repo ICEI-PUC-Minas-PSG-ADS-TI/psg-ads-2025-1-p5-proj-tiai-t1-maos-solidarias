@@ -1,4 +1,6 @@
 using System;
+using System.ComponentModel.DataAnnotations; 
+
 
 namespace MaosSolidarias.Backend
 {
@@ -6,15 +8,15 @@ namespace MaosSolidarias.Backend
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "O Título é obrigatório.")]
+        [Required(ErrorMessage = "O Tï¿½tulo ï¿½ obrigatï¿½rio.")]
         public string Titulo { get; set; }
 
-        [Required(ErrorMessage = "A descrição é obrigatória.")]
+        [Required(ErrorMessage = "A descriï¿½ï¿½o ï¿½ obrigatï¿½ria.")]
         public string Descricao { get; set; }
 
         public DateTime DataPublicacao { get; set; }
 
-        [Required(ErrorMessage = "O ID do Usuário é obrigatório.")]
+        [Required(ErrorMessage = "O ID do Usuï¿½rio ï¿½ obrigatï¿½rio.")]
         public int UsuarioId { get; set; } // Chave estrangeira
     }
 }
