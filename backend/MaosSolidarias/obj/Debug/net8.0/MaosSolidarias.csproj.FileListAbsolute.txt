@@ -32,3 +32,14 @@ C:\Users\vinic\Desktop\projects and softwares\MaosSolidarias\psg-ads-2025-1-p5-p
 C:\Users\vinic\Desktop\projects and softwares\MaosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.pdb
 C:\Users\vinic\Desktop\projects and softwares\MaosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.genruntimeconfig.cache
 C:\Users\vinic\Desktop\projects and softwares\MaosSolidarias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\ref\MaosSolidarias.dll
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.dll
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\refint\MaosSolidarias.dll
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.pdb
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.csproj.AssemblyReference.cache
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.AssemblyInfoInputs.cache
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.AssemblyInfo.cs
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.csproj.CoreCompileInputs.cache
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\obj\Debug\net8.0\MaosSolidarias.sourcelink.json

@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MaosSolidarias
 build_property.RootNamespace = MaosSolidarias
+<<<<<<< Updated upstream
 build_property.ProjectDir = c:\Users\gabri\Desktop\Mãos Solidárias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\
+=======
+build_property.ProjectDir = C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< Updated upstream
 build_property.MSBuildProjectDirectory = c:\Users\gabri\Desktop\Mãos Solidárias\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias
+=======
+build_property.MSBuildProjectDirectory = C:\Users\Amanda\Source\Repos\psg-ads-2025-1-p5-proj-tiai-t1-maos-solidarias\backend\MaosSolidarias
+>>>>>>> Stashed changes
 build_property._RazorSourceGeneratorDebug = 
