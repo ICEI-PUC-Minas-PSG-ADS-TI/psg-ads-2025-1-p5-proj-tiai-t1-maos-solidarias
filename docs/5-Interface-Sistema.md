@@ -33,4 +33,5 @@ _Descrição da tela relativa à atividade 2._
 
 [`Tela da atividade 2`](images/)
 
-
+## 5.4 Evidência do teste da conexão com o banco de dados
+[evidencia.webm](https://github.com/user-attachments/assets/19b70c71-b1d0-4715-8a4a-f9dff7230855)
