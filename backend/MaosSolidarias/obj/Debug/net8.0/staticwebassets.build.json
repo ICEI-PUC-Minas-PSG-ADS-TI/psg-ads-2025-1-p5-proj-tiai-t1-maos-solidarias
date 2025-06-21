@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "UNx9uHMeCQleIvkrNk3L/rKQDHpRfuSEhF777zfSgcc=",
-  "Source": "MaosSolidarias",
-  "BasePath": "_content/MaosSolidarias",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"/tS2lEYxCu4qJLWkA3REdtYSD/sLnS2/ykVAf2JmEzU=","Source":"MaosSolidarias","BasePath":"_content/MaosSolidarias","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

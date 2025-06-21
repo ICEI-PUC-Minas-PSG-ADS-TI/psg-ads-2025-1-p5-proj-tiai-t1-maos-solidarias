@@ -12,11 +12,11 @@ namespace MaosSolidarias
                 Connection = File.ReadAllText(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString()), "connection.txt"));
         }
 
-        public void abrirConexao ()
+        public SqlConnection abrirConexao()
         {
             conexao = new SqlConnection(Connection);
             conexao.Open();
-
+            return conexao;
         }
         public void fechar()
         {

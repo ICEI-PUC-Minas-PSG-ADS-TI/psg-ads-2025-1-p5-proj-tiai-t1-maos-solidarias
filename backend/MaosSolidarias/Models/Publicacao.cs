@@ -18,5 +18,9 @@ namespace MaosSolidarias.Backend
 
         [Required(ErrorMessage = "O ID do Usu�rio � obrigat�rio.")]
         public int UsuarioId { get; set; } // Chave estrangeira
+
+        [Required(ErrorMessage = "O conteudo � obrigat�rio.")]
+        public string Conteudo { get; set; }
+       
     }
 }
