@@ -11,6 +11,7 @@
 ![Login](https://github.com/user-attachments/assets/d9a4b396-878c-48bf-b81f-1630705f890b)
 
 ## 5.2. Telas de cadastro
+![image](https://github.com/user-attachments/assets/9ee5a425-5f31-4450-9db7-e006bbd1f501)
 ![Cadastro](https://github.com/user-attachments/assets/956df020-0178-4582-b820-d7e95bb2c93a)
 
 ## 5.4 Evidência do teste da conexão com o banco de dados
