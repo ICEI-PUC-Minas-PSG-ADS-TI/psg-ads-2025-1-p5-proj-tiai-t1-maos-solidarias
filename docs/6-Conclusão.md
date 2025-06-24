@@ -17,6 +17,6 @@ Diante disso, sugerem-se como próximas linhas de estudo e desenvolvimento:
 
 - Expansão do sistema para dispositivos móveis.
 
-- Melhoria dos mecanismos de validação e autenticação, como biometria ou autenticação em dois fatores para garantir mais segurança no cadastro de ONGs.
+- Melhoria dos mecanismos de validação e autenticação, como autenticação em dois fatores para garantir mais segurança no cadastro de ONGs.
 
 - Desenvolvimento de um painel analítico para ONGs, com indicadores de desempenho e impacto social.
