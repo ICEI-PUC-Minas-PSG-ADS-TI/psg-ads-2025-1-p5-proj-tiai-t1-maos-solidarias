@@ -357,3 +357,11 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/vs
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.GeneratedMSBuildEditorConfig.editorconfig
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.AssemblyInfo.cs
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.AssemblyInfoInputs.cache
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.csproj.AssemblyReference.cache
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.AssemblyInfo.cs
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.csproj.AssemblyReference.cache
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.AssemblyInfoInputs.cache
+backend/MaosSolidarias/obj/Debug/net8.0/MaosSolidarias.GeneratedMSBuildEditorConfig.editorconfig

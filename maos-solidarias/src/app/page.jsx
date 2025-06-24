@@ -1,8 +1,8 @@
-import StepsSection from "@/components/stepsSection/StepsSection";
+import StepsSection from "../components/stepsSection/StepsSection";
 import styles from "./page.module.css";
-import BenefitSection from "@/components/benefitSection/BenefitsSections";
+import BenefitSection from "../components/benefitSection/BenefitsSections";
 import { ongsSectionData, benefitsSectionData, donorsSectionData, donationsData } from "./types";
-import DonationFeed from "@/components/donationFeed/DonationFeed";
+import DonationFeed from "../components/donationFeed/DonationFeed";
 import CenterImageSection from "../components/centerImageSection/CenterImageSection"
 
 export default function Home() {

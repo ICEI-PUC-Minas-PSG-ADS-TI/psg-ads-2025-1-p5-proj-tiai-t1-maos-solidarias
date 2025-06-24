@@ -9,8 +9,6 @@ import LoginIcon from '@mui/icons-material/Login';
 import Image from 'next/image';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 
-
-
 const Navbar = () => {
   const pathname = usePathname()
 
@@ -28,9 +26,6 @@ const Navbar = () => {
         </Link>
         <Link href="/ongs" className={`${styles.link} ${pathname === '/ongs' ? styles.active : ''}`}>
           Ongs
-        </Link>
-        <Link href="/donors" className={`${styles.link} ${pathname === '/donors' ? styles.active : ''}`}>
-          Doadores
         </Link>
       </div>
 

@@ -18,7 +18,7 @@ const DonationFeed = ({ donations }) => {
                         </div>
                         <h3>{item.title}</h3>
                         <p>{item.description}</p>
-                        <button className={styles.donateButton}>Doe Agora</button>
+                        <button className={styles.donateButton}>Saiba mais</button>
                     </div>
                 ))}
             </div>
