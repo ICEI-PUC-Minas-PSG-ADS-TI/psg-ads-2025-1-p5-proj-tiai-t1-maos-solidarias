@@ -1,20 +1,37 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace MaosSolidarias.Backend
 {
     public class Publicacao
     {
+        [Required(ErrorMessage = "O ID √© obrigat√≥rio.")]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "O TÌtulo È obrigatÛrio.")]
+        [Required(ErrorMessage = "O T√≠tulo √© obrigat√≥rio.")]
         public string Titulo { get; set; }
 
-        [Required(ErrorMessage = "A descriÁ„o È obrigatÛria.")]
+        [Required(ErrorMessage = "O Subt√≠tulo √© obrigat√≥rio.")]
+        public string Subtitulo { get; set; }
+
+        [Required(ErrorMessage = "A descri√ß√£o √© obrigat√≥ria.")]
         public string Descricao { get; set; }
 
-        public DateTime DataPublicacao { get; set; }
-
-        [Required(ErrorMessage = "O ID do Usu·rio È obrigatÛrio.")]
+        [Required(ErrorMessage = "O ID do Usu√°rio √© obrigat√≥rio.")]
         public int UsuarioId { get; set; } // Chave estrangeira
+
+        [Required(ErrorMessage = "A Imagem √© obrigat√≥ria.")]
+        public string Imagem { get; set; }
+
+        // Construtor para inicializar as propriedades
+        public Publicacao(string Titulo, string Subtitulo, string Descricao, int UsuarioId, string Imagem, int Id)
+        {
+            this.Id = Id;
+            this.Titulo = Titulo ?? throw new ArgumentNullException(nameof(Titulo));
+            this.Subtitulo = Subtitulo ?? throw new ArgumentNullException(nameof(Subtitulo));
+            this.Descricao = Descricao ?? throw new ArgumentNullException(nameof(Descricao));
+            this.UsuarioId = UsuarioId; 
+            this.Imagem = Imagem ?? throw new ArgumentNullException(nameof(Imagem));
+        }
     }
 }

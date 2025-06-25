@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using MaosSolidarias.Backend;
 
 namespace MaosSolidarias.Repositories
@@ -11,14 +11,17 @@ namespace MaosSolidarias.Repositories
 
         public void Criar(Publicacao publicacao)
         {
-            string query = "INSERT INTO Publicacoes (Titulo, Conteudo, DataPublicacao, UsuarioId) VALUES (@Titulo, @Conteudo, GETDATE(), @UsuarioId)";
+            string query = "INSERT INTO Publicacoes (Titulo, Imagem, Subtitulo, Descricao, DataPublicacao, UsuarioId, Id) VALUES (@Titulo, @Imagem, @Subtitulo, @Descricao, @UsuarioId, @Id)";
             using (SqlConnection conn = _db.abrirConexao())
             {
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Titulo", publicacao.Titulo);
-                    cmd.Parameters.AddWithValue("@Conteudo", publicacao.Conteudo);
+                    cmd.Parameters.AddWithValue("@Imagem", publicacao.Imagem);
+                    cmd.Parameters.AddWithValue("@Subtitulo", publicacao.Subtitulo);
+                    cmd.Parameters.AddWithValue("@Descricao", publicacao.Descricao);
                     cmd.Parameters.AddWithValue("@UsuarioId", publicacao.UsuarioId);
+                    cmd.Parameters.AddWithValue("@Id", publicacao.Id);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -36,14 +39,15 @@ namespace MaosSolidarias.Repositories
                     {
                         while (reader.Read())
                         {
-                            lista.Add(new Publicacao
-                            {
-                                Id = Convert.ToInt32(reader["Id"]),
-                                Titulo = reader["Titulo"].ToString(),
-                                Conteudo = reader["Conteudo"].ToString(),
-                                DataPublicacao = Convert.ToDateTime(reader["DataPublicacao"]),
-                                UsuarioId = Convert.ToInt32(reader["UsuarioId"])
-                            });
+                            lista.Add(new Publicacao(
+                                Titulo: reader["Titulo"].ToString(),
+                                Imagem: reader["Imagem"].ToString(),
+                                Subtitulo: reader["Subtitulo"].ToString(),
+                                Descricao: reader["Descricao"].ToString(),
+                                UsuarioId: Convert.ToInt32(reader["UsuarioId"]),
+                                Id: Convert.ToInt32(reader["Id"]) // Passar o Id aqui
+                            ));
+
                         }
                     }
                 }
@@ -53,13 +57,15 @@ namespace MaosSolidarias.Repositories
 
         public void Atualizar(Publicacao publicacao)
         {
-            string query = "UPDATE Publicacoes SET Titulo = @Titulo, Conteudo = @Conteudo WHERE Id = @Id";
+            string query = "UPDATE Publicacoes SET Titulo = @Titulo, Imagem = @Imagem, Subtitulo = @Subtitulo, Descricao = @Descricao WHERE Id = @Id";
             using (SqlConnection conn = _db.abrirConexao())
             {
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Titulo", publicacao.Titulo);
-                    cmd.Parameters.AddWithValue("@Conteudo", publicacao.Conteudo);
+                    cmd.Parameters.AddWithValue("@Imagem", publicacao.Imagem);
+                    cmd.Parameters.AddWithValue("@Subtitulo", publicacao.Subtitulo);
+                    cmd.Parameters.AddWithValue("@Descricao", publicacao.Descricao);
                     cmd.Parameters.AddWithValue("@Id", publicacao.Id);
                     cmd.ExecuteNonQuery();
                 }

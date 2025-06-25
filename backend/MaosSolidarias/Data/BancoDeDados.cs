@@ -1,5 +1,5 @@
-using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+using System.ComponentModel.DataAnnotations; 
 
 namespace MaosSolidarias
 {
@@ -12,11 +12,11 @@ namespace MaosSolidarias
                 Connection = File.ReadAllText(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory.ToString()), "connection.txt"));
         }
 
-        public void abrirConexao ()
+        public SqlConnection abrirConexao()
         {
             conexao = new SqlConnection(Connection);
             conexao.Open();
-
+            return conexao;
         }
         public void fechar()
         {

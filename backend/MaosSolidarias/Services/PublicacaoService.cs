@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using MaosSolidarias.Backend;
 using MaosSolidarias.Repositories;
 
+
 namespace MaosSolidarias.Services
 {
     public class PublicacaoService

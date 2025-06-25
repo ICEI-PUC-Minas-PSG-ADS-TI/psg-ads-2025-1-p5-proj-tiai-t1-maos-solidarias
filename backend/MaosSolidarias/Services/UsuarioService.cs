@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using MaosSolidarias.Backend;
 using MaosSolidarias.Repositories;
+using System.ComponentModel.DataAnnotations; 
+
 
 namespace MaosSolidarias.Services
 {
@@ -16,6 +18,11 @@ namespace MaosSolidarias.Services
         public void AdicionarUsuario(Usuario usuario)
         {
             _usuarioRepository.Criar(usuario);
+        }
+
+        public void RemoverUsuario(int id)
+        {
+            _usuarioRepository.Deletar(id);
         }
 
         public List<Usuario> ObterUsuario()

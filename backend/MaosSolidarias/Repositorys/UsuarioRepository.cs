@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using MaosSolidarias.Backend;
 
 namespace MaosSolidarias.Repositories
@@ -11,55 +11,68 @@ namespace MaosSolidarias.Repositories
 
         public void Criar(Usuario usuario)
         {
-            string query = "INSERT INTO Usuarios (Nome, Descricao, Endereco) VALUES (@Nome, @Descricao, @Endereco)";
+            string query = "INSERT INTO Usuarios (CNPJ, Email, Senha, AreaAtuacao, EnderecoCompleto, ResponsavelLegal, TelefoneContato, Id) VALUES (@CNPJ, @Email, @Senha, @AreaAtuacao, @EnderecoCompleto, @ResponsavelLegal, @TelefoneContato)";
             using (SqlConnection conn = _db.abrirConexao())
             {
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
-                    cmd.Parameters.AddWithValue("@Descricao", usuario.Descricao);
-                    cmd.Parameters.AddWithValue("@Endereco", usuario.Endereco);
+                    cmd.Parameters.AddWithValue("@CNPJ", usuario.CNPJ);
+                    cmd.Parameters.AddWithValue("@Email", usuario.Email);
+                    cmd.Parameters.AddWithValue("@Senha", usuario.Senha);
+                    cmd.Parameters.AddWithValue("@AreaAtuacao", usuario.AreaAtuacao);
+                    cmd.Parameters.AddWithValue("@EnderecoCompleto", usuario.EnderecoCompleto);
+                    cmd.Parameters.AddWithValue("@ResponsavelLegal", usuario.ResponsavelLegal);
+                    cmd.Parameters.AddWithValue("@TelefoneContato", usuario.TelefoneContato);
                     cmd.ExecuteNonQuery();
                 }
             }
         }
 
-        public List<Usuario> ListarTodos()
+       public List<Usuario> ListarTodos()
+{
+    var lista = new List<Usuario>();
+    string query = "SELECT * FROM Usuarios";
+    
+    using (SqlConnection conn = _db.abrirConexao())
+    {
+        using (SqlCommand cmd = new SqlCommand(query, conn))
         {
-            var lista = new List<Usuario>();
-            string query = "SELECT * FROM Usuarios";
-            using (SqlConnection conn = _db.abrirConexao())
+            using (SqlDataReader reader = cmd.ExecuteReader())
             {
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                while (reader.Read())
                 {
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            lista.Add(new Usuario
-                            {
-                                Id = Convert.ToInt32(reader["Id"]),
-                                Nome = reader["Nome"].ToString(),
-                                Descricao = reader["Descricao"].ToString(),
-                                Endereco = reader["Endereco"].ToString()
-                            });
-                        }
-                    }
+                    lista.Add(new Usuario(
+                        Id: Convert.ToInt32(reader["Id"]),
+                        CNPJ: reader["CNPJ"].ToString(),
+                        Email: reader["Email"].ToString(),
+                        Senha: reader["Senha"].ToString(),
+                        AreaAtuacao: reader["AreaAtuacao"].ToString(),
+                        EnderecoCompleto: reader["EnderecoCompleto"].ToString(),
+                        ResponsavelLegal: reader["ResponsavelLegal"].ToString(),
+                        TelefoneContato: reader["TelefoneContato"].ToString()
+                    ));
                 }
             }
-            return lista;
         }
+    }
+    return lista;
+}
+
 
         public void Atualizar(Usuario usuario)
         {
-            string query = "UPDATE Usuarios SET Nome = @Nome, Descricao = @Descricao, Endereco = @Endereco WHERE Id = @Id";
+            string query = "UPDATE Usuarios SET CNPJ = @CNPJ, Email = @Email, Senha = @Senha, AreaAtuacao = @AreaAtuacao, EnderecoCompleto = @EnderecoCompleto, ResponsavelLegal = @ResponsavelLegal, TelefoneContato = @TelefoneContato WHERE Id = @Id";
             using (SqlConnection conn = _db.abrirConexao())
             {
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
-                    cmd.Parameters.AddWithValue("@Descricao", usuario.Descricao);
-                    cmd.Parameters.AddWithValue("@Endereco", usuario.Endereco);
+                    cmd.Parameters.AddWithValue("@CNPJ", usuario.CNPJ);
+                    cmd.Parameters.AddWithValue("@Email", usuario.Email);
+                    cmd.Parameters.AddWithValue("@Senha", usuario.Senha);
+                    cmd.Parameters.AddWithValue("@AreaAtuacao", usuario.AreaAtuacao);
+                    cmd.Parameters.AddWithValue("@EnderecoCompleto", usuario.EnderecoCompleto);
+                    cmd.Parameters.AddWithValue("@ResponsavelLegal", usuario.ResponsavelLegal);
+                    cmd.Parameters.AddWithValue("@TelefoneContato", usuario.TelefoneContato);
                     cmd.Parameters.AddWithValue("@Id", usuario.Id);
                     cmd.ExecuteNonQuery();
                 }
