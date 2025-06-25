@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
+import { ReduxProvider } from '../app/lib/provider'
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,9 +19,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className}`}>
         <div className="container">
-        <Navbar/>
-        {children}
-        <Footer/>
+        <ReduxProvider>
+          <Navbar/>
+            {children}    
+          <Footer/>
+        </ReduxProvider>
         </div>
       </body>
     </html>
