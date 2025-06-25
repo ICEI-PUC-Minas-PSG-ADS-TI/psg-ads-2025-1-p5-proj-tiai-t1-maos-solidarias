@@ -1,0 +1,33 @@
+.about {
+  padding: 64px 32px;
+  text-align: center;
+  color: black
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  color: #4B5563;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  text-align: left;
+}
+
+.grid h3 {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.grid p, .grid li {
+  color: #4B5563;
+}
