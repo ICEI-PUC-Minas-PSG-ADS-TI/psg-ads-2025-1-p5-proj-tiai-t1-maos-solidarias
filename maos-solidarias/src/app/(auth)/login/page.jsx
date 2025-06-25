@@ -35,7 +35,8 @@ const Login = () => {
         senha: 'biel',
         confirmarSenha: 'biel',
         descricao: 'Na Ong Crianças na tecnologia, acreditamos que toda criança merece a chance de explorar o mundo da tecnologia. Levamos conhecimento e oportunidades a comunidades carentes, despertando nas crianças a curiosidade, a criatividade e o poder de transformar seus próprios futuros através da educação digital.',
-        tags: ['Tecnologia', 'Crianças', 'Educação tecnológica']
+        tags: ['Tecnologia', 'Crianças', 'Educação tecnológica'],
+        imagem: 'ong-foto.png'
       }))
       alert('Login bem-sucedido!')
     } else {

@@ -13,7 +13,8 @@ const initialState = {
   senha: '',
   confirmarSenha: '',
   descricao: '',
-  tags: []
+  tags: [],
+  imagem: ''
 }
 
 const usuarioSlice = createSlice({

@@ -49,8 +49,8 @@ const Navbar = () => {
           Cadastre-se
         </Link>}
         {usuario.nome === '' && <Link href="/login" className={`${styles.button} ${styles.filled}`}><LoginIcon />Login</Link>}
-        {usuario.nome !== '' && <Link href="/login" className={`${styles.button} ${styles.filled}`} onClick={handleLogout}><LogoutIcon />Logout</Link>}
         {usuario.nome !== '' && <Link href={`/ongs/${usuario.id}`} className={`${styles.button} ${styles.filled}`}><Person2Icon/>Profile</Link>}
+        {usuario.nome !== '' && <Link href="/login" className={`${styles.button} ${styles.filled}`} onClick={handleLogout}><LogoutIcon />Logout</Link>}
       </div>
     </div>
   )

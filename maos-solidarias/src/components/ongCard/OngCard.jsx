@@ -3,18 +3,15 @@
 import React from 'react'
 import styles from './ongcard.module.css'
 import Image from 'next/image'
-import { useSelector } from 'react-redux'
 import VerifiedIcon from '@mui/icons-material/Verified';
 
-const OngCard = () => {
-  const usuario = useSelector((state) => state.usuario);
-  console.log(usuario.tags);
+const OngCard = ({ usuario }) => {
 
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
         <Image
-          src="/ong-foto.png"
+          src={usuario.imagem}
           alt="Imagem da ONG"
           width={180}
           height={180}
