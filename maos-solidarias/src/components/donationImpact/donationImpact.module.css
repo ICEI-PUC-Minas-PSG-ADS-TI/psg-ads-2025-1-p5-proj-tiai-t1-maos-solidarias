@@ -1,0 +1,79 @@
+.container {
+  margin-top: 40px;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  cursor: default;
+}
+
+.image {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.number {
+  font-weight: bold;
+  color: #3b82f6;
+  font-size: 0.95rem;
+}
+
+.novoPost {
+  width: 220px;
+  height: 180px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  color: #888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  gap: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.novoPost:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}

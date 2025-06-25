@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.errorLabel {
+  color: red;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+.formContainer {
+  background-color: white;
+  color: #171a1f;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #171a1f;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #171a1f; 
+}
+
+.inputGroup input {
+  padding: 12px;
+  border: 1px solid #f87171; 
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #ef4444; 
+}
+
+.button {
+  padding: 12px;
+  background-color: #f87171; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ef4444; 
+}

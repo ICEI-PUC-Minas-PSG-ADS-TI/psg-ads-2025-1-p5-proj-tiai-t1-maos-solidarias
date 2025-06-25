@@ -8,11 +8,19 @@ import PersonIcon from '@mui/icons-material/Person'
 import LoginIcon from '@mui/icons-material/Login';
 import Image from 'next/image';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
-
-
+import LogoutIcon from '@mui/icons-material/Logout';
+import Person2Icon from '@mui/icons-material/Person2';
+import { useSelector, useDispatch } from 'react-redux'
+import { resetarFormulario } from '../../app/lib/slices/usuarioSlice'
 
 const Navbar = () => {
   const pathname = usePathname()
+  const dispatch = useDispatch();
+  const usuario = useSelector((state) => state.usuario);
+
+  const handleLogout = () => {
+    dispatch(resetarFormulario())
+  }
 
   return (
     <div className={styles.container}>
@@ -29,21 +37,16 @@ const Navbar = () => {
         <Link href="/ongs" className={`${styles.link} ${pathname === '/ongs' ? styles.active : ''}`}>
           Ongs
         </Link>
-        <Link href="/donors" className={`${styles.link} ${pathname === '/donors' ? styles.active : ''}`}>
-          Doadores
-        </Link>
       </div>
 
       <div className={styles.links}>
-        <Link href="/doacao" className={`${styles.button} ${styles.outline}`}>
-          <VolunteerActivismIcon />
-          Doação segura
-        </Link>
-        <Link href="/register" className={`${styles.button} ${styles.filled}`}>
+        {usuario.nome === '' && <Link href="/register" className={`${styles.button} ${styles.filled}`}>
           <PersonIcon />
           Cadastre-se
-        </Link>
-        <Link href="/login" className={`${styles.button} ${styles.filled}`}><LoginIcon />Login</Link>
+        </Link>}
+        {usuario.nome === '' && <Link href="/login" className={`${styles.button} ${styles.filled}`}><LoginIcon />Login</Link>}
+        {usuario.nome !== '' && <Link href={`/ongs/${usuario.id}`} className={`${styles.button} ${styles.filled}`}><Person2Icon/>Profile</Link>}
+        {usuario.nome !== '' && <Link href="/login" className={`${styles.button} ${styles.filled}`} onClick={handleLogout}><LogoutIcon />Logout</Link>}
       </div>
     </div>
   )
