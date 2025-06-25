@@ -5,7 +5,7 @@ using MaosSolidarias.Services;
 namespace MaosSolidarias.Controller
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/teste")]
     public class PublicacaoController : ControllerBase
     {
         private readonly PublicacaoService _publicacaoService;
