@@ -40,10 +40,6 @@ const Navbar = () => {
       </div>
 
       <div className={styles.links}>
-        <Link href="/doacao" className={`${styles.button} ${styles.outline}`}>
-          <VolunteerActivismIcon />
-          Doação segura
-        </Link>
         {usuario.nome === '' && <Link href="/register" className={`${styles.button} ${styles.filled}`}>
           <PersonIcon />
           Cadastre-se
