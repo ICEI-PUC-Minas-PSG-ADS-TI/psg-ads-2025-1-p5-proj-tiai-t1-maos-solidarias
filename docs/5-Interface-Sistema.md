@@ -14,7 +14,5 @@
 ![image](https://github.com/user-attachments/assets/9ee5a425-5f31-4450-9db7-e006bbd1f501)
 ![Cadastro](https://github.com/user-attachments/assets/956df020-0178-4582-b820-d7e95bb2c93a)
 
-## 5.4 Vídeo apresentando a aplicação
-
 ## 5.5 Evidência do teste da conexão com o banco de dados
 [evidencia.webm](https://github.com/user-attachments/assets/19b70c71-b1d0-4715-8a4a-f9dff7230855)
